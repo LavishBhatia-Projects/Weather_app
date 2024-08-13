@@ -18,13 +18,23 @@ Flutter SDK
 
 Download and install the Flutter SDK from the official Flutter website.
 Ensure the flutter/bin directory is added to your system’s PATH.
+
+
 Dart SDK
 
 The Dart SDK comes bundled with the Flutter SDK. No separate installation is needed.
+
+
+
 Android Studio (for Android development)
+
+
 Steps to Run the App
+
 1. Clone the Repository
 First, clone the app's repository to your local machine
+
+
 Just open it in your Android studio and just run the app on your emulator or physical device(if connected in debug mode)
 
 
