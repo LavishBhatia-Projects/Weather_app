@@ -22,44 +22,11 @@ Dart SDK
 
 The Dart SDK comes bundled with the Flutter SDK. No separate installation is needed.
 Android Studio (for Android development)
-
-Download and install Android Studio.
-Ensure you have the latest Android SDK and an Android device/emulator set up.
-Xcode (for iOS development on macOS)
-
-Download and install Xcode from the App Store.
-Make sure to set up an iOS device or simulator.
-Visual Studio Code or Android Studio (IDE)
-
-You can use either Visual Studio Code with the Flutter extension or Android Studio with Flutter and Dart plugins installed.
-A device or emulator
-
-Ensure you have an Android or iOS device connected or an emulator/simulator running.
 Steps to Run the App
 1. Clone the Repository
 First, clone the app's repository to your local machine
-cd WeatherApp
-2. Install Dependencies
-Before running the app, you'll need to install the necessary dependencies:
-flutter pub get
-3. Run the App
-On Android:
-Ensure an Android device/emulator is connected and running, then execute:
-flutter run
-On iOS (macOS only):
-Ensure an iOS device/simulator is connected and running, then execute:
-flutter run
-4. Additional Commands
-Run on a specific device:
-List available devices and run on a specific one:
-flutter devices
-flutter run -d <device_id>
-Run in release mode:
-To build and run the app in release mode (optimized for production):
-flutter run --release
-5. Troubleshooting
-If you encounter any issues, run:
-flutter doctor
-This command will display information about your Flutter installation and environment. It can help you identify and fix issues.
+Just open it in your Android studio and just run the app on your emulator or physical device(if connected in debug mode)
+
+
 As of right now the app will show the weather of chandigarh if you want to change it just change the city name to to your desired city in weatherscreen.dart file
 
